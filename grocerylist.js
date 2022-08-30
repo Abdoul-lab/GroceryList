@@ -4,7 +4,7 @@ $(function() {
 		var input = $('input[type=text][name=item]'),
 			value = input.val(),
 			need = ($(event.target).attr('id') === 'addNeed'),
-			item = $('<li><input type="checkbox" name="item"> ' + value + ' <a href="https://fr.freepik.com/photos-vecteurs-libre/croix-supprimer"></a></li>'),
+			item = $('<li><input type="checkbox" name="item"> ' + value + ' <a href="#">X</a></li>'),
 			list = (need) ? $('ul').first() : $('ul').last();
 		
 		input.val("");
